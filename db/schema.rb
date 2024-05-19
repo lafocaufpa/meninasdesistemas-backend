@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_05_16_140808) do
+ActiveRecord::Schema[7.1].define(version: 2024_05_19_201016) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pgcrypto"
   enable_extension "plpgsql"
@@ -70,8 +70,8 @@ ActiveRecord::Schema[7.1].define(version: 2024_05_16_140808) do
     t.string "event_title", limit: 100, null: false
     t.string "lecturer", null: false
     t.text "event_description", null: false
-    t.integer "length_time", null: false
-    t.integer "event_type", null: false
+    t.integer "lenght_time", null: false
+    t.integer "event_type", default: 0, null: false
     t.uuid "admin_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
