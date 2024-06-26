@@ -23,5 +23,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-<<<<<<< HEAD
-
+>>>>>>> 743cd85 (First commit)
